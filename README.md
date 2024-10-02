@@ -50,4 +50,4 @@ Feel free to submit issues and pull requests if you find any bugs or would like 
 
 ## License
 
-This project is open-source and available.
+This project is open-source and available to everyone.
