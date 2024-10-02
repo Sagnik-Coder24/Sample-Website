@@ -1,139 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
     <title>Contact !</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
-    <script src="https://kit.fontawesome.com/42941b8cb2.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/42941b8cb2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <!-- ----Header---- -->
     <section class="sub-header">
-        <nav>
-            <a href="index.html" id="logo">
-                <img src="WEBimg/logo.png" alt="null">
-            </a>
-            <div class="nav-links" id="navLinks">
+      <nav>
+        <a href="index.html" id="logo">
+          <img src="WEBimg/logo.png" alt="null" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="far fa-window-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
 
-                <i class="far fa-window-close" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html" target="_blank">HOME</a></li>
-                    <li><a href="about.html" target="_blank">ABOUT</a></li>
-                    <li><a href="course.html" target="_blank">COURSE</a></li>
-                    <li><a href="blog.html" target="_blank">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-
-            <i class="fas fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <h1>
-            Contact Us
-        </h1>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
     </section>
-
 
     <!-- contact---------- -->
 
     <section class="location">
-        <iframe></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7775.98324978482!2d77.57791700869136!3d12.972387301250187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1727855721092!5m2!1sen!2sin"
+        width="800"
+        height="600"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </section>
 
     <section class="contact-us">
-        <div class="row">
-            <div class="contact-col">
-                <div>
-                    <i class="fas fa-home"></i>
-                    <span>
-                        <h5>
-                            XYZ Road, ABC Building
-                        </h5>
-                        <p>
-                            Bangalore, Karnataka, IN
-                        </p>
-                    </span>
-
-                </div>
-                <div>
-                    <i class="fas fa-phone"></i> <span>
-                        <h5>
-                            +1 9562014030
-                        </h5>
-                        <p>
-                            Monday to Saturday, 10AM to 6PM
-                        </p>
-                    </span>
-
-                </div>
-                <div>
-                    <i class="fas fa-envelope"></i>
-                    <span>
-                        <h5>
-                            info@sagnikghosh.com
-                        </h5>
-                        <p>
-                            Email us your query
-                        </p>
-                    </span>
-
-                </div>
-            </div>
-            <div class="contact-col">
-                <form action="form-handler.php" method="POST">
-                    <input type="text" name="name" placeholder="Enter your name" required>
-                    <input type="email" name="email" placeholder="Enter your Email address" required>
-                    <input type="text" mane="subject" placeholder="Enter your subject" required>
-                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
-                    <button type="submit" class="hero-btn red-btn">
-                        Send Message
-                    </button>
-                </form>
-            </div>
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fas fa-home"></i>
+            <span>
+              <h5>XYZ Road, ABC Building</h5>
+              <p>Bangalore, Karnataka, IN</p>
+            </span>
+          </div>
+          <div>
+            <i class="fas fa-phone"></i>
+            <span>
+              <h5>+1 9562014030</h5>
+              <p>Monday to Saturday, 10AM to 6PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fas fa-envelope"></i>
+            <span>
+              <h5>info@sagnikghosh.com</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
         </div>
+        <div class="contact-col">
+          <form action="form-handler.php" method="POST">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your Email address"
+              required
+            />
+            <input
+              type="text"
+              mane="subject"
+              placeholder="Enter your subject"
+              required
+            />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
     </section>
-
 
     <!---------Footer--------->
 
-
     <section class="footer">
-        <h4>
-            About Us
-        </h4>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, corrupti! Eaque, esse. Nulla tenetur rem quaerat <br>accusantium expedita quod. Voluptatem inventore impedit.
-        </p>
-        <div class="icons">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin"></i>
-        </div>
-        <p>
-            Made with <i class="fas fa-heart"></i> by Sagnik Ghosh
-        </p>
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, corrupti!
+        Eaque, esse. Nulla tenetur rem quaerat <br />accusantium expedita quod.
+        Voluptatem inventore impedit.
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fas fa-heart"></i> by Sagnik Ghosh</p>
     </section>
-
-
 
     <!------JavaScript------>
     <script>
-        var navLinks = document.getElementById('navLinks');
+      var navLinks = document.getElementById("navLinks");
 
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
 
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
     </script>
-</body>
-
+  </body>
 </html>
