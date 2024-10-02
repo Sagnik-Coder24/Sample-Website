@@ -29,7 +29,7 @@ Welcome to the Sample University Website repository! This project is a practice 
 
    ```bash
    git clone https://github.com/Sagnik-Coder24/Sample-Website.git
-   cd sample-university-website
+   cd Sample-Website
    ```
 
 2. **Open the index.html file**:
